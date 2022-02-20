@@ -108,7 +108,7 @@ class LoginActivity : AppCompatActivity() {
         // TODO : initiate successful logged in experience
         Toast.makeText(
             applicationContext,
-            "$welcome $displayName",
+            "¡Ingresaste Exitosamente!",
             Toast.LENGTH_LONG
         ).show()
     }

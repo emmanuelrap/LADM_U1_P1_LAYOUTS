@@ -22,4 +22,17 @@
     <style name="Theme.LADM_U1_P1_LAYOUTS.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.LADM_U1_P1_LAYOUTS.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.LADM_U1_P1_LAYOUTS.Fullscreen" parent="Theme.LADM_U1_P1_LAYOUTS">
+        <item name="android:actionBarStyle">
+            @style/Widget.Theme.LADM_U1_P1_LAYOUTS.ActionBar.Fullscreen
+        </item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="ThemeOverlay.LADM_U1_P1_LAYOUTS.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
 </resources>

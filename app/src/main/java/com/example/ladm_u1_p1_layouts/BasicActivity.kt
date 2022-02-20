@@ -1,5 +1,6 @@
 package com.example.ladm_u1_p1_layouts
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
@@ -27,8 +28,8 @@ class BasicActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            val fActivity= Intent(this,FullscreenActivity::class.java)
+            startActivity(fActivity)
         }
     }
 
