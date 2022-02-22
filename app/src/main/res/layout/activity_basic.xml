@@ -34,11 +34,11 @@
         app:srcCompat="@drawable/acerca" />
 
     <Button
-        android:layout_margin="40dp"
         android:id="@+id/regresar"
-        android:layout_width="133dp"
+        android:layout_width="172dp"
         android:layout_height="62dp"
         android:layout_gravity="bottom"
-        android:text="Regresar"></Button>
+        android:layout_margin="40dp"
+        android:text="Cerrar Sesion"></Button>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
