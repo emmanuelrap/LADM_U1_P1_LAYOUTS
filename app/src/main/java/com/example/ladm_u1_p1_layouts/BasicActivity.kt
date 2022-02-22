@@ -9,6 +9,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.ladm_u1_p1_layouts.databinding.ActivityBasicBinding
+import com.example.ladm_u1_p1_layouts.ui.login.LoginActivity
 
 class BasicActivity : AppCompatActivity() {
 
@@ -30,6 +31,11 @@ class BasicActivity : AppCompatActivity() {
         binding.fab.setOnClickListener { view ->
             val fActivity= Intent(this,FullscreenActivity::class.java)
             startActivity(fActivity)
+        }
+
+        binding.regresar.setOnClickListener { view ->
+            val lActivity= Intent(this,LoginActivity::class.java)
+            startActivity(lActivity)
         }
     }
 

@@ -47,12 +47,7 @@ class FirstFragment : Fragment() {
             binding.tv2.setText(">> Casas <<")
         }
 
-        binding.btn1.setOnClickListener {
-           /*val lActivity= Intent(this,LoginActivity::class.java)
-            startActivity(lActivity)*/
 
-          //  this.finish()
-        }
 
 
     }
@@ -60,5 +55,6 @@ class FirstFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+
     }
 }

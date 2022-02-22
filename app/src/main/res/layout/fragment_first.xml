@@ -7,52 +7,52 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
+
     <TextView
         android:id="@+id/textView"
-        android:textColor="@color/white"
-        android:textAlignment="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:background="@color/light_blue_600"
         android:text="¡¡BIENVENIDO A MERCADO LIBRE!!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/textview_first"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.351" />
-
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textview_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="30dp"
+        android:layout_width="253dp"
+        android:layout_height="71dp"
+        android:padding="20dp"
         android:text="Estoy buscando:"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.203" />
-
+        app:layout_constraintVertical_bias="0.207" />
 
     <TextView
         android:id="@+id/tv2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="432dp"
+        android:layout_width="260dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="388dp"
         android:text="___________________"
         android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent" />
-
 
     <Button
         android:id="@+id/button"
@@ -107,18 +107,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="207dp"
-        android:layout_height="61dp"
-        android:layout_marginBottom="16dp"
-        android:text="Regresar Al login"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toStartOf="parent" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
